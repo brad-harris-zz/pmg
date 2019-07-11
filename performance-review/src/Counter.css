@@ -1,0 +1,26 @@
+.counter {
+    font-size: 2em;
+}
+
+.counter button {
+    border: none;
+    background-color: white;
+    font-size: 1.5em;
+    outline: none;
+}
+
+#increment {
+    color: green;
+}
+
+#increment:hover {
+    cursor: pointer;
+}
+
+#decrement {
+    color: red;
+}
+
+#decrement:hover {
+    cursor: pointer;
+}

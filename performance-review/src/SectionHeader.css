@@ -1,0 +1,42 @@
+.section-header {
+  background: #b8cce4;
+  width: 1500px;
+  border-radius: 10px;
+  border: 1px solid #000;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: table;
+  margin-bottom: 5px;
+}
+
+.section-header .title {
+  font-size: 1.2em;
+  font-weight: bold;
+  width: 600px;
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 5px;
+}
+
+.title-text:hover {
+  cursor: pointer;
+}
+
+.title-text:before {
+  padding-right: 5px;
+}
+
+.title-text.collapsed:before {
+  content: '\25B6';
+}
+
+.title-text.open:before {
+  content: '\25BC';
+}
+
+.section-header .rating-header {
+  display: table-cell;
+  width: 150px;
+  text-align: center;
+  vertical-align: middle;
+}
